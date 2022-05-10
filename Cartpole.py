@@ -116,7 +116,7 @@ def main():
             next_state, reward, done, _ = env.step(action)
             
             #calculating the new reaward the smaler the angle the bigger the reward
-            reward = reward/abs(next_state[2]) * 0.03
+            reward = reward/abs(next_state[2]) * 0.008
 
             
             agent.update_replay_memory(current_state, action, reward, next_state, done)
