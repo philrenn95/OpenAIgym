@@ -1,2 +1,2 @@
 # OpenaIgym_cartpole
-Code for the OpenAI gym Cartpole Problem.
+Code for several the OpenAI gym Problems.
